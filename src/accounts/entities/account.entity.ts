@@ -11,7 +11,7 @@ export class Account {
     @Column()
     balance:number;
     @Column()
-    deposit:number;  
+    deposit:number; 
 
     constructor(
         id:number,
