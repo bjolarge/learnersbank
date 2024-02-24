@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  db:
+    image: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGODB_PASSWORD=learne321
